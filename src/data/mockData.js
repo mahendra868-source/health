@@ -17,7 +17,8 @@ export const tests = [
         reportDeliveryTime: "6 hours",
         parameters: ["Hemoglobin", "RBC Count", "WBC Count", "Platelet Count", "MCV", "MCH", "MCHC"],
         category: "Basic",
-        popular: true
+        popular: true,
+        image: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 2,
@@ -35,7 +36,8 @@ export const tests = [
         reportDeliveryTime: "12 hours",
         parameters: ["T3 Total", "T4 Total", "TSH"],
         category: "Hormones",
-        popular: true
+        popular: true,
+        image: "https://images.unsplash.com/photo-1530482054429-cc252adc4847?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 3,
@@ -53,7 +55,8 @@ export const tests = [
         reportDeliveryTime: "24 hours",
         parameters: ["HbA1c"],
         category: "Diabetes",
-        popular: true
+        popular: true,
+        image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 4,
@@ -71,7 +74,8 @@ export const tests = [
         reportDeliveryTime: "12 hours",
         parameters: ["Total Cholesterol", "HDL", "LDL", "VLDL", "Triglycerides", "TC/HDL Ratio"],
         category: "Cardiac",
-        popular: true
+        popular: true,
+        image: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 5,
@@ -89,7 +93,8 @@ export const tests = [
         reportDeliveryTime: "24 hours",
         parameters: ["Bilirubin Total", "SGOT", "SGPT", "Alkaline Phosphatase", "Total Protein", "Albumin", "Globulin"],
         category: "Liver",
-        popular: false
+        popular: false,
+        image: "https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 6,
@@ -107,7 +112,8 @@ export const tests = [
         reportDeliveryTime: "24 hours",
         parameters: ["Urea", "Creatinine", "Uric Acid", "BUN", "Sodium", "Potassium", "Chloride"],
         category: "Kidney",
-        popular: false
+        popular: false,
+        image: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 7,
@@ -125,7 +131,8 @@ export const tests = [
         reportDeliveryTime: "48 hours",
         parameters: ["Vitamin D Total"],
         category: "Vitamins",
-        popular: false
+        popular: false,
+        image: "https://images.unsplash.com/photo-1616012480717-fd9867059ca0?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 8,
@@ -143,7 +150,8 @@ export const tests = [
         reportDeliveryTime: "48 hours",
         parameters: ["Vitamin B12"],
         category: "Vitamins",
-        popular: false
+        popular: false,
+        image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 9,
@@ -161,7 +169,8 @@ export const tests = [
         reportDeliveryTime: "24 hours",
         parameters: ["Serum Iron", "TIBC", "Transferrin Saturation", "Ferritin"],
         category: "Minerals",
-        popular: false
+        popular: false,
+        image: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 10,
@@ -179,7 +188,8 @@ export const tests = [
         reportDeliveryTime: "6 hours",
         parameters: ["Physical Examination", "Chemical Examination", "Microscopic Examination"],
         category: "Basic",
-        popular: false
+        popular: false,
+        image: "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 11,
@@ -197,7 +207,8 @@ export const tests = [
         reportDeliveryTime: "6 hours",
         parameters: ["NS1 Antigen"],
         category: "Infectious Disease",
-        popular: false
+        popular: false,
+        image: "https://images.unsplash.com/photo-1584036561566-b937402dc4b4?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 12,
@@ -215,7 +226,8 @@ export const tests = [
         reportDeliveryTime: "24 hours",
         parameters: ["SARS-CoV-2 RNA"],
         category: "Infectious Disease",
-        popular: false
+        popular: false,
+        image: "https://images.unsplash.com/photo-1605684954998-685c79d6fe15?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 13,
@@ -233,7 +245,8 @@ export const tests = [
         reportDeliveryTime: "24 hours",
         parameters: ["PSA Total"],
         category: "Men's Health",
-        popular: false
+        popular: false,
+        image: "https://images.unsplash.com/photo-1631558506015-1804f7b487bb?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 14,
@@ -251,7 +264,8 @@ export const tests = [
         reportDeliveryTime: "6 hours",
         parameters: ["Beta HCG"],
         category: "Women's Health",
-        popular: false
+        popular: false,
+        image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 15,
@@ -269,7 +283,8 @@ export const tests = [
         reportDeliveryTime: "72 hours",
         parameters: ["IgE Antibodies for 50+ food items"],
         category: "Allergy",
-        popular: false
+        popular: false,
+        image: "https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&q=80&w=1000"
     }
 ];
 
@@ -410,7 +425,7 @@ export const labs = [
     {
         id: 1,
         name: "PathLabs",
-        image: "https://via.placeholder.com/300x200?text=PathLabs",
+        image: "https://images.unsplash.com/photo-1581093458891-9f30e54d3088?auto=format&fit=crop&q=80&w=1000",
         rating: 4.5,
         reviewsCount: 2340,
         distance: "1.2 km",
@@ -425,7 +440,7 @@ export const labs = [
     {
         id: 2,
         name: "Dr. Lal PathLabs",
-        image: "https://via.placeholder.com/300x200?text=Dr+Lal+PathLabs",
+        image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=1000",
         rating: 4.7,
         reviewsCount: 3120,
         distance: "2.5 km",
@@ -440,7 +455,7 @@ export const labs = [
     {
         id: 3,
         name: "Metropolis Healthcare",
-        image: "https://via.placeholder.com/300x200?text=Metropolis",
+        image: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=1000",
         rating: 4.8,
         reviewsCount: 4250,
         distance: "0.8 km",
@@ -455,7 +470,7 @@ export const labs = [
     {
         id: 4,
         name: "Thyrocare",
-        image: "https://via.placeholder.com/300x200?text=Thyrocare",
+        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1000",
         rating: 4.4,
         reviewsCount: 1890,
         distance: "3.2 km",
@@ -470,7 +485,7 @@ export const labs = [
     {
         id: 5,
         name: "SRL Diagnostics",
-        image: "https://via.placeholder.com/300x200?text=SRL+Diagnostics",
+        image: "https://images.unsplash.com/photo-1504813184591-01572f98c85f?auto=format&fit=crop&q=80&w=1000",
         rating: 4.6,
         reviewsCount: 2780,
         distance: "1.8 km",
@@ -485,7 +500,7 @@ export const labs = [
     {
         id: 6,
         name: "Vijaya Diagnostic Centre",
-        image: "https://via.placeholder.com/300x200?text=Vijaya+Diagnostic",
+        image: "https://images.unsplash.com/photo-1583912267550-d44d991b9847?auto=format&fit=crop&q=80&w=1000",
         rating: 4.5,
         reviewsCount: 1560,
         distance: "4.5 km",
@@ -500,7 +515,7 @@ export const labs = [
     {
         id: 7,
         name: "Apollo Diagnostics",
-        image: "https://via.placeholder.com/300x200?text=Apollo+Diagnostics",
+        image: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&q=80&w=1000",
         rating: 4.7,
         reviewsCount: 3450,
         distance: "2.1 km",
@@ -515,7 +530,7 @@ export const labs = [
     {
         id: 8,
         name: "Suburban Diagnostics",
-        image: "https://via.placeholder.com/300x200?text=Suburban+Diagnostics",
+        image: "https://images.unsplash.com/photo-1666214278486-4447432095ce?auto=format&fit=crop&q=80&w=1000",
         rating: 4.6,
         reviewsCount: 2100,
         distance: "3.8 km",
