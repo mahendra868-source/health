@@ -1,0 +1,1 @@
+export { BookingDetail } from './AllPages';

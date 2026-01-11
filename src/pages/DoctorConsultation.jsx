@@ -1,0 +1,1 @@
+export { DoctorConsultation } from './RemainingPages';
